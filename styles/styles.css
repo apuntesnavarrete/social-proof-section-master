@@ -58,9 +58,9 @@ align-items: center;
     font-weight: 700;
     margin-top: 15px;
     margin-bottom: 15px;
-    padding: 0 0 0 30px;
     border-radius: 5px;
     display: flex;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -69,7 +69,6 @@ align-items: center;
 }
 .rated_text{
     display: inline-block;
-    margin: 0 0 0 5%;
     color: var(--Very-Dark-Magenta);
 }
 .cards{
