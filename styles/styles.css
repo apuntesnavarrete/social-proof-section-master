@@ -147,8 +147,8 @@ body {
     grid-template-columns: 1fr;
     grid-template-rows: auto auto auto;
   }
-  .main_title{
-      font-size: 3rem;
+  .main_title {
+    font-size: 3rem;
   }
   .main_description {
     margin: 20px 55px;
@@ -165,9 +165,8 @@ body {
     flex-direction: column;
   }
   .card {
-    margin: 10px 20px;  
+    margin: 10px 20px;
     padding: 4%;
-
   }
 
   .card_description p {
