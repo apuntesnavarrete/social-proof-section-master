@@ -64,9 +64,7 @@ align-items: center;
     align-items: center;
 }
 
-.img_star{
-    padding: 0 2px;
-}
+
 .rated_text{
     display: inline-block;
     color: var(--Very-Dark-Magenta);
@@ -125,18 +123,11 @@ align-items: center;
     align-self:end;
 }
 
-@media (max-width: 1300px) {
-    .rated_text{
-        font-size: 1.1rem;
-    }
-    .card_description p{
-        font-size: 1.1rem;
-    }
-  }
 
-  @media (max-width: 1210px) {
+
+  @media (max-width: 1120px) {
     .rated_text{
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
     .card_description p{
         font-size: 1.1rem;
@@ -147,24 +138,49 @@ align-items: center;
   }
 
 
-@media (max-width: 770px) {
+@media (max-width: 970px) {
+    body{
+        justify-content: center;
+    }
     .description{
+        width: 100%;
         text-align: center;
-        margin: 50px 0px;
+        margin: 50px 0px 0px 0px;
     }
     .main{
+        max-width: 500px;
         margin: 0px;
         grid-template-columns: 1fr;
     grid-template-rows: auto auto auto;
     }
     .main_description{
-        margin: 0 70px;
+        margin: 20px 55px;
+    }
+    .rated{
+        flex-direction: column;
+        justify-content: center;
     }
     
     .cards{
+        margin: 10px 30px;
         grid-column: 1 / 2;
         grid-row: 3 / 4;
         flex-direction: column;
     }
+    .card{
+        margin: 10px 20px;
+    }
 
+    .card_description p{
+        font-size: 1.3rem;
+    }
+    .Reviews{
+        align-self: center;
+    }
+    .Best{
+        align-self: center;
+    }
+    .rated_text{
+        margin: 0;
+    }
   }
