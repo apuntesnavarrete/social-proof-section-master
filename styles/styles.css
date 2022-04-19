@@ -1,186 +1,185 @@
-:root{
-    --Very-Dark-Magenta: hsl(300, 43%, 22%);
-    --Soft-Pink: hsl(333, 80%, 67%);
+:root {
+  --Very-Dark-Magenta: hsl(300, 43%, 22%);
+  --Soft-Pink: hsl(333, 80%, 67%);
 
-    --Dark-Grayish-Magenta: hsl(303, 10%, 53%);
-    --Light-Grayish-Magenta: hsl(300, 24%, 96%);
-    --White: hsl(0, 0%, 100%);
-
-}
-
-body{
-    min-height: 100vh;
-    font-size: 1rem;
-    font-family: 'League Spartan', sans-serif;
-    display: flex;
-align-items: center;
-}
-.main{
-    margin: 5%;
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 365px 365px;
-}
-.description{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 500px;
-    margin: 0 10px;
-}
-.main_title{
-    line-height: 0.85;
-    margin: 0;
-    font-size: 4.2rem;
-    color: var(--Very-Dark-Magenta);
-}
-.main_description{
-    margin-top: 15px;
-    font-size: 1.3rem;
-    color: var(--Dark-Grayish-Magenta);
-}
-.rateds{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-.Report{
-    align-self: center;
-}
-.Best{
-    align-self: end;
-}
-.rated{
-    width: 70%;
-    height: 60px;
-    background-color: var(--Light-Grayish-Magenta);
-    font-size: 1.2rem;
-    font-weight: 700;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    border-radius: 5px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+  --Dark-Grayish-Magenta: hsl(303, 10%, 53%);
+  --Light-Grayish-Magenta: hsl(300, 24%, 96%);
+  --White: hsl(0, 0%, 100%);
 }
 
+body {
+  min-height: 100vh;
+  font-size: 1rem;
+  font-family: "League Spartan", sans-serif;
+  display: flex;
+  align-items: center;
+}
+.main {
+  margin: 5%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 365px 365px;
+}
+.description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 500px;
+  margin: 0 10px;
+}
+.main_title {
+  line-height: 0.85;
+  margin: 0;
+  font-size: 4.2rem;
+  color: var(--Very-Dark-Magenta);
+}
+.main_description {
+  margin-top: 15px;
+  font-size: 1.3rem;
+  color: var(--Dark-Grayish-Magenta);
+}
+.rateds {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.Report {
+  align-self: center;
+}
+.Best {
+  align-self: end;
+}
+.rated {
+  width: 70%;
+  height: 60px;
+  background-color: var(--Light-Grayish-Magenta);
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
 
-.rated_text{
-    display: inline-block;
-    color: var(--Very-Dark-Magenta);
+.rated_text {
+  display: inline-block;
+  color: var(--Very-Dark-Magenta);
 }
-.cards{
-    grid-column: 1 / 3;
-    grid-row: 2 / 3;
-    display: flex;
-    justify-content: center;
+.cards {
+  grid-column: 1 / 3;
+  grid-row: 2 / 3;
+  display: flex;
+  justify-content: center;
 }
-.card{
-    height: 250px;
-    background-color: var(--Very-Dark-Magenta);
-    border-radius: 10px;
-    color: var(--White);
-    margin: 0px 10px;
-    padding: 1%;
+.card {
+  min-height: 200px;
+  max-height: 260px;
+  background-color: var(--Very-Dark-Magenta);
+  border-radius: 10px;
+  color: var(--White);
+  margin: 0px 10px;
+  padding: 2%;
 }
-.card-top{
-    height: 70px;
-    display: flex;
-    align-items: center;
-    font-size: 1.1rem;
+.card-top {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  font-size: 1.1rem;
 }
 
-
-.card_img{
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    margin: 0 20px;
+.card_img {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin: 0 20px;
 }
 .card_names p {
-    margin: 5px 0;
-    padding: 0;
+  margin: 5px 0;
+  padding: 0;
 }
-.card_name{
-    font-weight: 700;
+.card_name {
+  font-weight: 700;
 }
-.card_verified{
-    color: var(--Dark-Grayish-Magenta);
+.card_verified {
+  color: var(--Dark-Grayish-Magenta);
 }
-.card_description p{
-    padding: 0 20px 0 15px;
-    font-size: 1.3rem;
-    line-height:1.3 ;
-    font-weight: 400;
-    color: var(--Light-Grayish-Magenta);
-}
-
-
-.card_two{
-    align-self:center
-}
-.card_three{
-    align-self:end;
+.card_description p {
+  padding: 0 20px 0 15px;
+  font-size: 1.3rem;
+  line-height: 1.3;
+  font-weight: 400;
+  color: var(--Light-Grayish-Magenta);
 }
 
+.card_two {
+  align-self: center;
+}
+.card_three {
+  align-self: end;
+}
 
-
-  @media (max-width: 1120px) {
-    .rated_text{
-        font-size: 1rem;
-    }
-    .card_description p{
-        font-size: 1.1rem;
-    }
-    .main_description{
-        font-size: 1.2rem;
-    }
+@media (max-width: 1120px) {
+  .rated_text {
+    font-size: 1rem;
   }
-
+  .card_description p {
+    font-size: 1.1rem;
+  }
+  .main_description {
+    font-size: 1.2rem;
+  }
+}
 
 @media (max-width: 970px) {
-    body{
-        justify-content: center;
-    }
-    .description{
-        width: 100%;
-        text-align: center;
-        margin: 50px 0px 0px 0px;
-    }
-    .main{
-        max-width: 500px;
-        margin: 0px;
-        grid-template-columns: 1fr;
-    grid-template-rows: auto auto auto;
-    }
-    .main_description{
-        margin: 20px 55px;
-    }
-    .rated{
-        flex-direction: column;
-        justify-content: center;
-    }
-    
-    .cards{
-        margin: 10px 30px;
-        grid-column: 1 / 2;
-        grid-row: 3 / 4;
-        flex-direction: column;
-    }
-    .card{
-        margin: 10px 20px;
-    }
-
-    .card_description p{
-        font-size: 1.3rem;
-    }
-    .Reviews{
-        align-self: center;
-    }
-    .Best{
-        align-self: center;
-    }
-    .rated_text{
-        margin: 0;
-    }
+  body {
+    justify-content: center;
   }
+  .description {
+    width: 100%;
+    text-align: center;
+    margin: 75px 0px 0px 0px;
+  }
+  .main {
+    max-width: 500px;
+    margin: 0px;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+  }
+  .main_title{
+      font-size: 3rem;
+  }
+  .main_description {
+    margin: 20px 55px;
+  }
+  .rated {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .cards {
+    margin: 10px 30px;
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+    flex-direction: column;
+  }
+  .card {
+    margin: 10px 20px;  
+    padding: 4%;
+
+  }
+
+  .card_description p {
+    font-size: 1rem;
+  }
+  .Reviews {
+    align-self: center;
+  }
+  .Best {
+    align-self: center;
+  }
+  .rated_text {
+    margin: 0;
+  }
+}
